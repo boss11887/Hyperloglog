@@ -25,7 +25,7 @@ print(f'Normal count is {len(myset)}')
 print('---------------------------------')
 
 while 1:
-    cur = input('insert random ip (-1 to exit) ): ')
+    cur = input('insert random ip (-1 to exit): ')
     if cur == '-1':
         break
     hll.add(cur)
